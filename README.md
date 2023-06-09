@@ -1,4 +1,4 @@
-Pathfinding System
+# Pathfinding System
 This is a Python-based program that implements various algorithms to find the shortest path from start to end point in a 2D maze. The implemented algorithms include A*, Breadth-First Search (BFS), and Uniform-Cost Search (UCS).
 Getting Started
 To get started with this project, clone the repository onto your local machine using Git.
