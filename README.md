@@ -2,7 +2,7 @@
 This is a Python-based program that implements various algorithms to find the shortest path from start to end point in a 2D maze. The implemented algorithms include A*, Breadth-First Search (BFS), and Uniform-Cost Search (UCS).
 
 ## input map
-input map is shown as below<br>
+input map text file formatted according to this example <br>
 10 10<br>
 1 1<br>
 10 10<br>
@@ -16,6 +16,14 @@ input map is shown as below<br>
 7 7 1 X X X 1 1 1 1<br>
 8 8 1 1 1 1 1 1 1 1<br>
 X 8 7 1 7 1 1 8 1 1<br>
+The first line indicates the size of the map (rows by columns), while the second
+and third line represent the start and end positions respectively. The map data
+then follows, where all elevation values are integers from 0 to 9 inclusive. the cost of a path is the
+sum of the costs between two adjacent points of the path, and the cost between
+adjacent points is 1 plus the difference between the elevation of the two points if
+we climb “uphill”, or simply 1 if we stay “level” or slide “downhill”.
+
+
 
 ## Usage
 Open terminal or command prompt and navigate to the directory where you cloned the repository.
