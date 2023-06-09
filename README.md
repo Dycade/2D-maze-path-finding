@@ -32,6 +32,7 @@ The first argument is the path of the map<br>
 The second argument is the search algorithm to use choices are:bfs,ucs, and astar<br>
 The third argument is the heuristic to use for A* search, choices are: uclidean and manhattan<br>
 5. the out put would be similarly like:<br>
+![alt text](http://url/to/output.png)
 * 1 1 1 1 1 4 7 8 X<br>
 * * 1 6 1 1 1 5 8 8<br>
 4 * * * 1 1 1 4 6 7<br>
