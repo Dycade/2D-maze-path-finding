@@ -27,11 +27,11 @@ then follows, where all elevation values are integers from 0 to 9 inclusive and 
 ## Usage
 1. Open terminal or command prompt and navigate to the directory where you cloned the repository.
 2. edit the map.txt file as your wish
-3. To run the program, enter command like: python pathfinder.py map.txt astar euclidean
-The first argument is the path of the map
-The second argument is the search algorithm to use choices are:bfs,ucs, and astar.
-The third argument is the heuristic to use for A* search, choices are: uclidean and manhattan
-5. the out put would be similarly like:
+3. To run the program, enter command like: python pathfinder.py map.txt astar euclidean<br>
+The first argument is the path of the map<br>
+The second argument is the search algorithm to use choices are:bfs,ucs, and astar<br>
+The third argument is the heuristic to use for A* search, choices are: uclidean and manhattan<br>
+5. the out put would be similarly like:<br>
 
 * 1 1 1 1 1 4 7 8 X<br>
 * * 1 6 1 1 1 5 8 8<br>
