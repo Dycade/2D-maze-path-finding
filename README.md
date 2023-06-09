@@ -32,7 +32,6 @@ The first argument is the path of the map<br>
 The second argument is the search algorithm to use choices are:bfs,ucs, and astar<br>
 The third argument is the heuristic to use for A* search, choices are: uclidean and manhattan<br>
 5. the out put would be similarly like:<br>
-
 * 1 1 1 1 1 4 7 8 X<br>
 * * 1 6 1 1 1 5 8 8<br>
 4 * * * 1 1 1 4 6 7<br>
@@ -43,3 +42,4 @@ The third argument is the heuristic to use for A* search, choices are: uclidean 
 7 7 1 X X X * * 1 1<br>
 8 8 1 1 1 1 1 * * 1<br>
 X 8 7 1 7 1 1 8 * *<br>
+where the * represent the finding path.
