@@ -32,15 +32,5 @@ The first argument is the path of the map<br>
 The second argument is the search algorithm to use choices are:bfs,ucs, and astar<br>
 The third argument is the heuristic to use for A* search, choices are: uclidean and manhattan<br>
 5. the out put would be similarly like:<br>
-![alt text](http://url/to/output.png)
-* 1 1 1 1 1 4 7 8 X<br>
-* * 1 6 1 1 1 5 8 8<br>
-4 * * * 1 1 1 4 6 7<br>
-1 1 5 * 1 X 1 1 3 6<br>
-1 1 1 * * X 1 9 1 1<br>
-1 1 3 1 * * * 1 9 1<br>
-6 1 1 1 1 X * 1 1 2<br>
-7 7 1 X X X * * 1 1<br>
-8 8 1 1 1 1 1 * * 1<br>
-X 8 7 1 7 1 1 8 * *<br>
+![output](https://github.com/Dycade/2D-maze-path-finding/assets/85650434/3066954b-fb61-4c2b-a3fa-3976ce32a98e)
 where the * represent the finding path.
